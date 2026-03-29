@@ -23,7 +23,7 @@ except Exception as e:
 title_input = st.text_input("Название статьи:", placeholder="Attention Is All You Need")
 abstract_input = st.text_area("Абстракт (Аннотация):", placeholder="Текст аннотации (опционально)")
 
-if st.button("Квалифицировать статью", type="primary"):
+if st.button("Определить тему статьи", type="primary"):
     if not title_input.strip():
         st.warning("Введите название статьи!")
     else:
