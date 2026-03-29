@@ -12,24 +12,18 @@
   "hidden_dim": 3072,
   "id2label": {
     "0": "Computer Science",
-    "1": "Statistics",
+    "1": "Mathematics",
     "2": "Physics",
     "3": "Quantitative Biology",
-    "4": "Electrical Engineering and Systems Science",
-    "5": "Mathematics",
-    "6": "Quantitative Finance",
-    "7": "Economics"
+    "4": "Statistics"
   },
   "initializer_range": 0.02,
   "label2id": {
     "Computer Science": 0,
-    "Economics": 7,
-    "Electrical Engineering and Systems Science": 4,
-    "Mathematics": 5,
+    "Mathematics": 1,
     "Physics": 2,
     "Quantitative Biology": 3,
-    "Quantitative Finance": 6,
-    "Statistics": 1
+    "Statistics": 4
   },
   "max_position_embeddings": 512,
   "model_type": "distilbert",
